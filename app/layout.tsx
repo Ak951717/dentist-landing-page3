@@ -45,8 +45,11 @@ export const metadata: Metadata = {
     'max-image-preview': 'large',
     'max-video-preview': -1,
   },
-  canonical: 'https://brightsmile-dental.com',
+  // canonical: 'https://brightsmile-dental.com',
   metadataBase: new URL('https://brightsmile-dental.com'),
+  alternates: {
+  canonical: '/',
+},
 }
 
 export const viewport: Viewport = {
